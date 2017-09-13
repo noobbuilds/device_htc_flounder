@@ -136,11 +136,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/qct/lib64_vendor/libmdmdetect.so:vendor/lib64/libmdmdetect.so \
     $(LOCAL_PATH)/gps/qct/lib64_vendor/libperipheral_client.so:vendor/lib64/libperipheral_client.so
 
-# apns.conf and old-apns.conf
-PRODUCT_COPY_FILES += \
-    device/htc/flounder/apns-conf.xml:system/etc/apns-conf.xml \
-    device/htc/flounder/old-apns-conf.xml:system/etc/old-apns-conf.xml
-
 PRODUCT_AAPT_CONFIG := normal large xlarge
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
